@@ -3,3 +3,4 @@
 ## Issues
 - No menubar
 - Image not in correct resolution
+- Not mobile-responsive at all, Bootstrap?

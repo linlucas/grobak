@@ -1,25 +1,25 @@
-
-.head{
+.head {
     position: relative;
     text-align: center;
     color: white;
 }
-#backgroud-image{
+
+#backgroud-image {
     width: 100%;
 }
 
 
-#head-title{
+#head-title {
     font-family: 'Work Sans', sans-serif;
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 10%;
     text-align: left;
 }
 
-#head-text{
+#head-text {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.2vw;
     color: white;
@@ -31,7 +31,7 @@
     text-align: left;
 }
 
-#menu-button{
+#menu-button {
     background-color: #877356;
     border: none;
     color: white;
@@ -45,55 +45,58 @@
     left: 20%;
 }
 
-.story{
+.story {
     position: relative;
     color: white;
     margin-top: 10%;
 }
 
-#story-title{
+#story-title {
     font-family: 'Work Sans', sans-serif;
     font-size: 4vw;
     color: black;
     position: absolute;
     margin-top: 5%;
-    margin-left:5%;
-    margin-right:70%;
+    margin-left: 5%;
+    margin-right: 70%;
 }
 
-#story-text{
+#story-text {
     font-family: 'Work Sans', sans-serif;
     font-size: 2vw;
     position: absolute;
     color: black;
     margin-top: 18%;
-    margin-right:70%;
-    margin-left:5%;
+    margin-right: 70%;
+    margin-left: 5%;
 }
-#story-pic1{
+
+#story-pic1 {
     position: absolute;
-    left:75%;
-    width:25%; 
+    left: 75%;
+    width: 25%;
 }
-#story-pic2{
+
+#story-pic2 {
     position: absolute;
-    left:45%;
-    width:25%; 
+    left: 45%;
+    width: 25%;
     margin-top: 10%;
 }
 
-.order{
+.order {
     margin-top: 75%;
     position: relative;
     text-align: center;
     color: white;
 }
-#order-image{
+
+#order-image {
     width: 100%;
 }
 
 
-#order-title{
+#order-title {
     font-family: 'Work Sans', sans-serif;
     font-size: 4vw;
     color: white;
@@ -103,7 +106,7 @@
     text-align: left;
 }
 
-#order-text{
+#order-text {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.2vw;
     color: white;
@@ -115,7 +118,7 @@
     text-align: left;
 }
 
-#order-button{
+#order-button {
     background-color: #877356;
     border: none;
     color: white;
@@ -127,4 +130,74 @@
     position: absolute;
     top: 68%;
     left: 20%;
+}
+
+/* ---------img gallery---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1000px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
 }

@@ -1,4 +1,130 @@
-.head-pic{
-    background: transparent url(/assets/GadoGado);
-    
+
+.head{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#backgroud-image{
+    width: 100%;
+}
+
+
+#head-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4vw;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+}
+
+#head-text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    right: 55%;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#menu-button{
+    background-color: #877356;
+    border: none;
+    color: white;
+    padding: 1vw 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 68%;
+    left: 20%;
+}
+
+.story{
+    position: relative;
+    color: white;
+    margin-top: 10%;
+}
+
+#story-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4vw;
+    color: black;
+    position: absolute;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:70%;
+}
+
+#story-text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2vw;
+    position: absolute;
+    color: black;
+    margin-top: 18%;
+    margin-right:70%;
+    margin-left:5%;
+}
+#story-pic1{
+    position: absolute;
+    left:75%;
+    width:25%; 
+}
+#story-pic2{
+    position: absolute;
+    left:45%;
+    width:25%; 
+    margin-top: 10%;
+}
+
+.order{
+    margin-top: 75%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#order-image{
+    width: 100%;
+}
+
+
+#order-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4vw;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+}
+
+#order-text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    right: 55%;
+    line-height: 1.6;
+    text-align: left;
+}
+
+#order-button{
+    background-color: #877356;
+    border: none;
+    color: white;
+    padding: 1vw 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 68%;
+    left: 20%;
 }

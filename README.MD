@@ -1,6 +1,10 @@
 # Grobak Seattle - authentic indonesian food, delivered
 
 ## Issues
+- No image gallery
+- No way to place an order
+- Can't reord customer data
+- Need to send notification to Michael whenever there's an order
 - No menubar
 - Image not in correct resolution
-- Not mobile-responsive at all, Bootstrap?
+- Not mobile-responsive at all, ~~Bootstrap?~~ absolute positioning will be the death of us

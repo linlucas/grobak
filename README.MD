@@ -7,4 +7,4 @@
 - Need to send notification to Michael whenever there's an order
 - No menubar
 - Image not in correct resolution
-- ~~Responsiveness using Bootstrap?~~ absolute positioning will be the death of us
+- ~~Responsiveness using Bootstrap? absolute positioning will be the death of us ~~
